@@ -3,7 +3,7 @@ services:
     build:
       context: .
       args:
-        VITE_CONTENT_SERVER_URL: http://lynn2:8080
+        VITE_CONTENT_SERVER_URL: http://lynn2:4000
     container_name: content-admin
     ports:
       - "8083:80"
